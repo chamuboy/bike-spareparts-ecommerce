@@ -1,0 +1,49 @@
+/* src/styles/adminorderlist.css */
+
+.admin-order-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.admin-order-list-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-order-list-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.order-item {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.order-id {
+    margin: 0;
+    font-weight: bold;
+}
+
+.total-cost {
+    margin: 5px 0;
+}
+
+.status {
+    margin: 5px 0;
+}
+
+.dispatch-btn {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dispatch-btn:hover {
+    background-color: #0056b3;
+}

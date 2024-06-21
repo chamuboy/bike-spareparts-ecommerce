@@ -1,0 +1,23 @@
+/* src/styles/checkout.css */
+.checkout-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.shipping-form input {
+    display: block;
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.order-summary ul {
+    list-style-type: none;
+    padding: 0;
+}
+.order-summary li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
