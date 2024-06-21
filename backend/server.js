@@ -3,7 +3,6 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const cors = require('cors');
 const path = require('path');
-const helmet = require('helmet'); // Add Helmet for additional security
 const userRoutes = require('./routes/userRoutes');
 const itemRoutes = require('./routes/itemRoutes');
 const orderRoutes = require('./routes/orderRoutes');
@@ -23,9 +22,6 @@ app.use((req, res, next) => {
   res.setHeader("Content-Security-Policy", "script-src 'self' 'unsafe-eval'");
   next();
 });
-
-// Use Helmet for other security headers
-app.use(helmet());
 
 // Routes
 app.use('/api/users', userRoutes);
